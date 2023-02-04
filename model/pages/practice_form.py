@@ -69,20 +69,3 @@ def submit_form():
 
 def should_be_data_in_form(*data):
     browser.element('.table').all('.table td:nth-child(2)').should(have.texts(data))
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
